@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person</title>
+    <link rel="stylesheet" href="/assets/css/person.css">
+</head>
+<body>
+    
+    <!-- TOP BAR -->
+    <nav class=" backdrop-blur-sm sticky top-0">
+        <div class="h-16 max-w-lg px-5 md:max-w-4xl lg:max-w-7xl mx-auto flex items-center text-slate-900 justify-between">
+            <div class="brand">
+                <a href="#" class="font-bold text-2xl hover:text-purple-700">taufik.dev</a>
+            </div>
+            <button class="md:hidden">
+                <ion-icon name="menu-outline" class="h-8 w-8"></ion-icon>
+            </button>
+            <div class="topbar pl-5 hidden md:flex">
+                <ul>
+                    <li>
+                        <a href="#about" class="pl-5 font-semibold textlg hover:text-purple-700">About</a>
+                        <a href="#experience" class="pl-5 font-semibold textlg hover:text-purple-700">Experience</a>
+                        <a href="#contact" class="pl-5 font-semibold textlg hover:text-purple-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- MAIN -->
+    <!-- <main class="">
+        <div class="w-10/12 mx-auto min-h-screen flex items-center">
+            <h1 class="font-bold text-slate-900 text-6xl">Hi, I'm Ridho!<br><span class="text-blue-700">Newbie on Front-End</span></h1>    
+        </div>
+    </main> -->
+
+    <main class="min-h-screen -my-10 flex items-center">
+        <div class="max-w-lg px-5 md:max-w-4xl lg:max-w-7xl mx-auto">
+            <figure class="lg:grid lg:grid-cols-2">
+                <p class="font-bold text-3xl text-center lg:flex md:items-center md:px-10 md:text-5xl lg:text-6xl ">Hello, I'm Taufik!</p>
+                <!-- SVG from UnDraw.co -->
+                <img class="mt-14 mx-auto" src="/assets/svg/undraw_hello_re_3evm.svg" alt="Hello">
+            </figure>
+        </div>
+    </main>
+
+
+
+    <!-- About -->
+    <section>
+        <div class="max-w-lg px-5 md:max-w-4xl lg:max-w-7xl mx-auto py-20" id="about">
+            <div class="Judul">
+                <h2 class="font-bold text-2xl md:text-4xl text-slate-900 text-center">About me</h2>
+            </div>
+            <div class="description max-w-xl my-10 mx-auto">
+                <p class="text-center font-semibold text-slate-900 text-xl md:text-2xl">Let me introduce my self, my name is <strong class="text-green-700">Taufik Ridho</strong>. I'm 22 years old. Now I'm Studied at <strong> Duta Bangsa Surakarta University</strong>.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Experience -->
+    <section>
+        <div class="max-w-lg px-5 md:max-w-4xl lg:max-w-7xl mx-auto" id="experience">
+            <div class="judul py-20">
+                <h2 class="font-bold text-2xl md:text-4xl text-slate-900 text-center">My Experiences</h2>
+            </div>
+            <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+                <div class="border rounded-lg overflow-hidden shadow-lg bg-slate-50">
+                    <img class=" w-fit" src="https://images.unsplash.com/photo-1610986603166-f78428624e76?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnJvbnRlbmR8fHx8fHwxNjQ0MjU4NDcw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=720" alt="Front-End">
+                    <!-- <img src="https://source.unsplash.com/720x480?computer" alt="Computer" class="w-fit"> -->
+                    <div class="p-5">
+                        <h3 class="font-bold text-xl text-slate-800 mb-2">Front-End</h3>
+                        <div class="mb-3 text-slate-600">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laborum deleniti unde minima ipsa voluptatem earum repellendus in dolores obcaecati perferendis quas est iste recusandae id beatae, quae eaque. Porro.</p>
+                        </div>
+                        <hr>
+                        <div class="mt-3 bg-slate-200 inline-block rounded-full">
+                            <p class="text-sm text-slate-600 px-3 py-1">2022 - Now</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden shadow-lg bg-slate-50">
+                    <img class=" w-fit" src="https://images.unsplash.com/photo-1576554741364-a0d5593b0d62?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2N0dnx8fHx8fDE2NDQzMTM4MTk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=720" alt="CCTV">
+                    <div class="p-5">
+                        <h3 class="font-bold text-xl text-slate-800 mb-2">CCTV Installation</h3>
+                        <div class="mb-3 text-slate-600">
+                            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia iure eaque consectetur, molestias deleniti minus amet aliquam excepturi! Veniam laboriosam, consequatur dignissimos maiores similique sit. Itaque voluptatum qui temporibus adipisci?</p>
+                        </div>
+                        <hr>
+                        <div class="mt-3 bg-slate-200 inline-block rounded-full">
+                            <p class="text-sm text-slate-600 px-3 py-1">2019 - 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden shadow-lg bg-slate-50">
+                    <img class=" w-fit" src="https://images.unsplash.com/flagged/photo-1579274216947-86eaa4b00475?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=480&ixid=MnwxfDB8MXxyYW5kb218MHx8bmV0d29ya3x8fHx8fDE2NDQzMTMyODc&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=720" alt="UI/UX">
+                    <div class="p-5">
+                        <h3 class="font-bold text-xl text-slate-800 mb-2">Networking</h3>
+                        <div class="mb-3 text-slate-600">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quod ipsa ex voluptas consequuntur beatae consequatur quaerat, molestiae dolore dolorem tempora, voluptatum sunt, illo asperiores nisi molestias placeat eius neque.</p>
+                        </div>
+                        <hr>
+                        <div class="mt-3 bg-slate-200 inline-block rounded-full">
+                            <p class="text-sm text-slate-600 px-3 py-1">2018 - 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <!-- Contact -->
+    <section>
+        <div class="max-w-lg px-5 md:max-w-4xl lg:max-w-7xl mx-auto py-20" id="contact">
+            <div class="Judul">
+                <h2 class="font-bold text-2xl md:text-4xl text-slate-900 text-center">Contact</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="flex items-center px-20 text-2xl">
+                    <ul>
+                        <li class="flex items-center"><ion-icon class="pr-2" name="logo-instagram"></ion-icon><a href="https://www.instagram.com/ridhorockieds" target="blank">Instagram</a></li>
+                        <li class="flex items-center"><ion-icon class="pr-2" name="logo-whatsapp"></ion-icon><a href="https://wa.me/6283866308696" target="blank">Whatsapp</a></li>
+                        <li class="flex items-center"><ion-icon class="pr-2" name="logo-linkedin"></ion-icon><a href="https://id.linkedin.com/in/taufik-ridho-697602160/en?trk=people-guest_people_search-card" target="blank">Linked.in</a></li>
+                    </ul>
+                    
+                </div>
+                <!-- <div class="profil max-w-sm mx-auto">
+                    <img src="/assets/img/ridho.jpg" alt="Taufik Ridho" class="rounded-full flex items-center">
+                </div> -->
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="h-96"></div>
+    
+    <!-- FOOTER -->
+    <!-- <footer class="h-16 flex items-center bg-green-500">
+        <div class="w-10/12 mx-auto">
+            <a href="#"><ion-icon name="logo-linkedin" class="h-6 w-6"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-whatsapp" class="h-6 w-6"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram" class="h-6 w-6"></ion-icon></a>
+        </div>
+    </footer> -->
+
+    <!-- Icon by ionic.io/ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- coba -->
+    <script src="coba.js"></script>
+</body>
+</html>
