@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "styles": "tailwindcss -i ./src/main.css -o ./assets/css/styles.css -w",
-    "dev": "tailwindcss -i ./src/main.css -o ./assets/css/person.css -w",
-    "porto": "tailwindcss -i ./src/main.css -o ./assets/css/porto.css -w"
+    "dev": "tailwindcss -i ./src/main.css -o ./assets/css/person.css --watch"
   },
   "keywords": [],
   "author": "",
