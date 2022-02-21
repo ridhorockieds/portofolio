@@ -1,5 +1,5 @@
 function nav(){
-    var x = document.getElementById("bar");
+    const x = document.getElementById("bar");
 
     if(x.style.display === "block"){
         x.style.display = "none";
